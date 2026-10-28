@@ -2,6 +2,7 @@ class DshTui < Formula
   desc "DeepSeek Harness terminal UI fork (prebuilt runtime)"
   homepage "https://github.com/feuvan/deepseek-harness"
   license "MIT"
+  version "0.2.2-alpha.2-20261028"
 
   on_macos do
     if Hardware::CPU.arm?
