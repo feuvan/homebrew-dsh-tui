@@ -5,21 +5,21 @@ class DshTui < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.1-rc.3/dsh-tui-0.2.1-rc.3-macos-arm64.tar.gz"
-      sha256 "b5dbd4b30eea7514133898e9e94d1d852da16328b6248253afeeac2ea29247a5"
+      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.2-alpha.2-20261028/dsh-tui-0.2.2-alpha.2-20261028-macos-arm64.tar.gz"
+      sha256 "1f461c8379cbe58db515e2432cbcc65218f42ae063fe1d056b3b46e620d19eec"
     else
-      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.1-rc.3/dsh-tui-0.2.1-rc.3-macos-x64.tar.gz"
-      sha256 "446fb650deffbcc2243e9b3573b101b2fe6b850453bb9662e9cb572bb58031f2"
+      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.2-alpha.2-20261028/dsh-tui-0.2.2-alpha.2-20261028-macos-x64.tar.gz"
+      sha256 "728d2540fdd51870237e3a5ee19fcf3b53515fb2f732923d74339ab4d27b9fa5"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.1-rc.3/dsh-tui-0.2.1-rc.3-linux-arm64.tar.gz"
-      sha256 "2df68400a687b1261d956ab516da0378e4dc6b39ee4d8ddeb8cf8e5dae749b06"
+      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.2-alpha.2-20261028/dsh-tui-0.2.2-alpha.2-20261028-linux-arm64.tar.gz"
+      sha256 "e747ed89916cdf2c52ac1e19558793ac2dc82fd58027eef2c8ce05b7efced898"
     else
-      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.1-rc.3/dsh-tui-0.2.1-rc.3-linux-x64.tar.gz"
-      sha256 "768caa8ebcfb6c67e2769dace85bfb40eaba0d704071ab2c94a6f9d6a0c6907c"
+      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.2-alpha.2-20261028/dsh-tui-0.2.2-alpha.2-20261028-linux-x64.tar.gz"
+      sha256 "98d3cd1af2a5fa7fcf56d9aab15d11ecf933061033575cfd7ed5c0d4557cf167"
     end
   end
 
