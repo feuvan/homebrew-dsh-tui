@@ -6,8 +6,6 @@
 
 ## 简体中文
 
-## 简体中文
-
 ### 0.2.2-alpha.2-20261028.2 · 2026-10-28
 
 - 增加终端首次启动设置：可用 DeepSeek 账号登录、API Key，或暂时跳过。
@@ -18,7 +16,6 @@
 - 基于功能分支提交 `0aaf55e2` 重新构建预构建归档。
 
 ### 0.2.2-alpha.2-20261028 · 2026-10-28
-
 
 - 同步上游 `deepseek-harness` master 至 `f3803c96`（`0.2.2-alpha.2`）。
 - 基于功能分支 `feat/tui-interaction-upgrade` 的合并提交
@@ -34,8 +31,6 @@
 - 提供 macOS arm64/x86_64、Linux x86_64/arm64 归档和一键安装脚本。
 
 ---
-
-## English
 
 ## English
 
