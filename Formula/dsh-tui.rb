@@ -1,7 +1,6 @@
 class DshTui < Formula
   desc "DeepSeek Harness terminal UI fork (prebuilt runtime)"
   homepage "https://github.com/feuvan/deepseek-harness"
-  version "0.2.1-rc.3"
   license "MIT"
 
   on_macos do
@@ -29,15 +28,15 @@ class DshTui < Formula
     bin.write_exec_script libexec/"dsh-tui"
   end
 
-  test do
-    assert_match "Usage: dsh", shell_output("#{bin}/dsh-tui --help")
-  end
-
   def caveats
     <<~EOS
       This installs `dsh-tui`, not `dsh`; a Desktop-installed `dsh` command is
       left untouched. The TUI uses the shared ~/.dsh home and its own
       ~/.dsh/profiles/tui profile.
     EOS
+  end
+
+  test do
+    assert_match "Usage: dsh", shell_output("#{bin}/dsh-tui --help")
   end
 end
