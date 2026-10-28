@@ -6,7 +6,20 @@
 
 ## 简体中文
 
+## 简体中文
+
+### 0.2.2-alpha.2-20261028.3 · 2026-10-28
+
+- 新增 `/account`：显示账号身份、充值余额、赠送余额、用量与充值链接。
+- 支持刷新、重新登录和带确认的退出登录。
+- 账号资料与余额查询独立降级，并提供原地重试。
+- 账号查询增加 15 秒超时和可操作错误文案。
+- 账号 dock 显示浏览器登录等待状态，Esc 可取消登录。
+- 完善账号中英文文案。
+- 基于功能分支提交 `52a07954` 重新构建预构建归档。
+
 ### 0.2.2-alpha.2-20261028.2 · 2026-10-28
+ · 2026-10-28
 
 - 增加终端首次启动设置：可用 DeepSeek 账号登录、API Key，或暂时跳过。
 - 账号登录通过系统浏览器完成，并仅在登录期间启动 loopback OAuth 回调。
@@ -34,7 +47,21 @@
 
 ## English
 
+## English
+
+### 0.2.2-alpha.2-20261028.3 · 2026-10-28
+
+- Added `/account`: signed-in identity, recharge and bonus wallets, usage and
+  top-up links.
+- Supports refresh, re-login, and confirmed sign-out.
+- Profile and wallet failures degrade independently with in-place retry.
+- Account queries now have a 15-second deadline and actionable error copy.
+- The account dock shows browser sign-in progress and Esc cancellation.
+- Completed English and Chinese account copy.
+- Rebuilt the prebuilt archives from feature commit `52a07954`.
+
 ### 0.2.2-alpha.2-20261028.2 · 2026-10-28
+ · 2026-10-28
 
 - Added first-run terminal setup: sign in with a DeepSeek account, use an API
   key, or skip for now.
