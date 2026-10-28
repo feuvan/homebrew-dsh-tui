@@ -25,7 +25,11 @@ class DshTui < Formula
 
   def install
     libexec.install Dir["*"]
-    bin.write_exec_script libexec/"dsh-tui"
+    (bin/"dsh-tui").write <<~SH
+      #!/bin/sh
+      exec "#{libexec}/dsh-tui" tui "$@"
+    SH
+    chmod 0755, bin/"dsh-tui"
   end
 
   def caveats
