@@ -17,6 +17,13 @@ Or in one command:
 brew install feuvan/dsh-tui/dsh-tui
 ```
 
+Homebrew 7 may require trusting a new third-party tap before installation:
+
+```sh
+brew trust --formula feuvan/dsh-tui/dsh-tui
+brew install feuvan/dsh-tui/dsh-tui
+```
+
 Run it from any project directory:
 
 ```sh
