@@ -6,8 +6,6 @@
 
 ## 简体中文
 
-## 简体中文
-
 ### 0.2.2-alpha.2-20261028.3 · 2026-10-28
 
 - 新增 `/account`：显示账号身份、充值余额、赠送余额、用量与充值链接。
@@ -19,7 +17,6 @@
 - 基于功能分支提交 `52a07954` 重新构建预构建归档。
 
 ### 0.2.2-alpha.2-20261028.2 · 2026-10-28
- · 2026-10-28
 
 - 增加终端首次启动设置：可用 DeepSeek 账号登录、API Key，或暂时跳过。
 - 账号登录通过系统浏览器完成，并仅在登录期间启动 loopback OAuth 回调。
@@ -47,8 +44,6 @@
 
 ## English
 
-## English
-
 ### 0.2.2-alpha.2-20261028.3 · 2026-10-28
 
 - Added `/account`: signed-in identity, recharge and bonus wallets, usage and
@@ -61,7 +56,6 @@
 - Rebuilt the prebuilt archives from feature commit `52a07954`.
 
 ### 0.2.2-alpha.2-20261028.2 · 2026-10-28
- · 2026-10-28
 
 - Added first-run terminal setup: sign in with a DeepSeek account, use an API
   key, or skip for now.
