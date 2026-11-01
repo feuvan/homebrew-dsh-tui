@@ -6,7 +6,18 @@
 
 ## 简体中文
 
+## 简体中文
+
+### 0.2.2-alpha.2-20261101.1 · 2026-11-01
+
+- 同步上游 `deepseek-harness` master 至 `ce7073d5`。
+- 合并 vendored Cordis rescope 更新，并重新生成 catalogs 与文档图表。
+- 重新同步 TUI presets 与更新后的 Web profile 声明。
+- 保留终端首次启动设置与 `/account` 账号/额度 dock。
+- 基于功能分支合并提交 `24336e9b` 重新构建预构建归档。
+
 ### 0.2.2-alpha.2-20261028.3 · 2026-10-28
+ · 2026-10-28
 
 - 新增 `/account`：显示账号身份、充值余额、赠送余额、用量与充值链接。
 - 支持刷新、重新登录和带确认的退出登录。
@@ -44,7 +55,19 @@
 
 ## English
 
+## English
+
+### 0.2.2-alpha.2-20261101.1 · 2026-11-01
+
+- Synced upstream `deepseek-harness` master to `ce7073d5`.
+- Merged the vendored Cordis rescope update and regenerated catalogs and
+  documentation graphs.
+- Resynchronized TUI presets with the updated Web profile declarations.
+- Keeps first-run terminal setup and the `/account` account/quota dock.
+- Rebuilt the prebuilt archives from feature merge `24336e9b`.
+
 ### 0.2.2-alpha.2-20261028.3 · 2026-10-28
+ · 2026-10-28
 
 - Added `/account`: signed-in identity, recharge and bonus wallets, usage and
   top-up links.
