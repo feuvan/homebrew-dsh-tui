@@ -6,7 +6,14 @@
 
 ## 简体中文
 
-## 简体中文
+### 0.2.2-rc.1-20261111.1 · 2026-11-11
+
+- 同步上游 `deepseek-harness` master 至 `fcc0ad46`（`v0.2.2-rc.1` release 合并，vendored Cordis 4.1.0，重新生成 catalogs 与文档图表）。
+- 跟随上游 Agent Teams 重构：Team 模式改为 base 组合提供的按根会话保存开关，退役实验性组合包，teammate 即普通 subagent。
+- 终端 Team 界面提升为 `@deepseek-ai/dsh-tui-agent-team`，由 TUI 组合包挂载；`/team` 面板成员列表改为从根会话的 subagent 树派生，任务板保持只读。
+- 在 TUI `/config` → 模型与推理强度 新增 **Use Agent Teams** 开关，带与 native 面板一致的关闭确认。
+- 保留首次启动设置（账号登录、API Key、模型选择、`/login`）与 `/account` 账号/额度 dock。
+- 基于功能分支合并提交 `68c28639` 重新构建预构建归档。
 
 ### 0.2.2-alpha.2-20261101.1 · 2026-11-01
 
@@ -17,7 +24,6 @@
 - 基于功能分支合并提交 `24336e9b` 重新构建预构建归档。
 
 ### 0.2.2-alpha.2-20261028.3 · 2026-10-28
- · 2026-10-28
 
 - 新增 `/account`：显示账号身份、充值余额、赠送余额、用量与充值链接。
 - 支持刷新、重新登录和带确认的退出登录。
@@ -55,7 +61,22 @@
 
 ## English
 
-## English
+### 0.2.2-rc.1-20261111.1 · 2026-11-11
+
+- Synced upstream `deepseek-harness` master to `fcc0ad46` (the `v0.2.2-rc.1`
+  release merge, vendored Cordis 4.1.0, regenerated catalogs and graphs).
+- Followed the upstream Agent Teams refactor: Team mode is a saved
+  per-root-Session switch supplied by the base composition, the experimental
+  bundle is retired, and teammates are ordinary subagents.
+- Promoted the terminal Agent Teams surface to
+  `@deepseek-ai/dsh-tui-agent-team`, mounted by the TUI bundle; the `/team`
+  dock derives its member list from the root Session's subagent tree and keeps
+  the shared task board read-only.
+- Added **Use Agent Teams** to the TUI `/config` Model & effort section with
+  the native panel's disable confirmation.
+- Keeps first-run terminal setup (account sign-in, API key, model selection,
+  `/login`) and the `/account` account/quota dock.
+- Rebuilt the prebuilt archives from feature merge `68c28639`.
 
 ### 0.2.2-alpha.2-20261101.1 · 2026-11-01
 
@@ -67,7 +88,6 @@
 - Rebuilt the prebuilt archives from feature merge `24336e9b`.
 
 ### 0.2.2-alpha.2-20261028.3 · 2026-10-28
- · 2026-10-28
 
 - Added `/account`: signed-in identity, recharge and bonus wallets, usage and
   top-up links.
