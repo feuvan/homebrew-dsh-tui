@@ -14,7 +14,17 @@
 
 ## 简体中文
 
+## 简体中文
+
+### 0.2.2-rc.4-20261118.5 · 2026-11-18
+
+- 新增 `/plugin`：Session tab 管理当前会话挂载的插件组件，Global tab 管理 profile 组合包。
+- 支持 `/plugin add|remove|enable|disable`；需要重启的变更会明确提示。
+- 从 `/config` 移除重复的 Experimental capabilities 分区；可选组合包改由 `/plugin` 管理。
+- 保留 `dsh-tui plugin`、Shift+Tab 权限循环、Ctrl+E 推理强度与启动更新检测。
+
 ### 0.2.2-rc.4-20261118.4 · 2026-11-18
+ · 2026-11-18
 
 - Shift+Tab 现在循环权限模式，并通过与 `/permission` 相同的权限服务应用。
 - 推理强度切换移至 Ctrl+E，编辑器和模型选择器保持一致。
@@ -114,7 +124,20 @@
 
 ## English
 
+## English
+
+### 0.2.2-rc.4-20261118.5 · 2026-11-18
+
+- Added `/plugin`: the Session tab manages plugins mounted for the current
+  Session; the Global tab manages profile bundles.
+- Added `/plugin add|remove|enable|disable`; restart-only changes are reported.
+- Removed the duplicate Experimental capabilities section from `/config`;
+  optional bundles are managed from `/plugin`.
+- Keeps `dsh-tui plugin`, Shift+Tab permission cycling, Ctrl+E effort, and
+  startup update checks.
+
 ### 0.2.2-rc.4-20261118.4 · 2026-11-18
+ · 2026-11-18
 
 - Shift+Tab now cycles the permission mode through the same service as
   `/permission`.
