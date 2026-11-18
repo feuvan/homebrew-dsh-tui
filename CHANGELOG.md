@@ -10,7 +10,18 @@
 
 ## 简体中文
 
+## 简体中文
+
+### 0.2.2-rc.4-20261118.3 · 2026-11-18
+
+- 预构建 wrapper 支持 `dsh-tui plugin ...`，转发到共享的 profile 插件 CLI。
+- 未指定 `--profile` 时默认管理 `tui` profile；显式 profile 原样透传。
+- `plugin` 参数原样转发给 pnpm，与 `dsh plugin` 行为一致；需要 PATH 中有 pnpm。
+- 修复单文件运行时中 `/sessions` 恢复 Session 的问题。
+- 保留启动更新检查、`/update`、首次启动设置与 `/account`。
+
 ### 0.2.2-rc.4-20261118.2 · 2026-11-18
+ · 2026-11-18
 
 - 预构建 Homebrew 与 GitHub 安装会在启动时后台检查最新 Release。
 - 根据安装渠道提示 `brew upgrade dsh-tui` 或一键安装脚本。
@@ -89,7 +100,21 @@
 
 ## English
 
+## English
+
+### 0.2.2-rc.4-20261118.3 · 2026-11-18
+
+- The prebuilt wrapper now supports `dsh-tui plugin ...`, forwarding to the
+  shared profile plugin CLI.
+- Without `--profile`, it defaults to the `tui` profile; an explicit profile
+  passes through unchanged.
+- Plugin arguments are forwarded to pnpm verbatim, matching `dsh plugin`;
+  pnpm must be on PATH.
+- Fixed `/sessions` resume in the single-file runtime.
+- Keeps startup update checks, `/update`, first-run setup, and `/account`.
+
 ### 0.2.2-rc.4-20261118.2 · 2026-11-18
+ · 2026-11-18
 
 - Prebuilt Homebrew and GitHub installations check the latest Release in the
   background at startup.
