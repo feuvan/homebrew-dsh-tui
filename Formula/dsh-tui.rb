@@ -1,26 +1,26 @@
 class DshTui < Formula
   desc "DeepSeek Harness terminal UI fork (prebuilt runtime)"
   homepage "https://github.com/feuvan/deepseek-harness"
-  version "0.2.2-rc.1-20261111.1"
+  version "0.2.2-rc.4-20261118.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.2-rc.1-20261111.1/dsh-tui-0.2.2-rc.1-20261111.1-macos-arm64.tar.gz"
-      sha256 "1f3b4b213e6fed7ef6fd200d38194708e366d55deb760fd3667dac659a27b0df"
+      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.2-rc.4-20261118.1/dsh-tui-0.2.2-rc.4-20261118.1-macos-arm64.tar.gz"
+      sha256 "92d25197f9db4b339b8075ec512fb0b92c7901d80bcff35fc1e77cc289519242"
     else
-      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.2-rc.1-20261111.1/dsh-tui-0.2.2-rc.1-20261111.1-macos-x64.tar.gz"
-      sha256 "533ecc0b7c697a25222109bdeff86b5d2ab7e1ec6bea46ec6dff6bfc84643e3a"
+      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.2-rc.4-20261118.1/dsh-tui-0.2.2-rc.4-20261118.1-macos-x64.tar.gz"
+      sha256 "9cc012c7c96014836f7da4eaa784ccbda018a19374f2c52770e2a9155e0382c2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.2-rc.1-20261111.1/dsh-tui-0.2.2-rc.1-20261111.1-linux-arm64.tar.gz"
-      sha256 "551812ae3e2556f9ddd09f2c2703713d65a5ba3f65fefb542876ce4de6d77800"
+      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.2-rc.4-20261118.1/dsh-tui-0.2.2-rc.4-20261118.1-linux-arm64.tar.gz"
+      sha256 "ff99c22b22cb211c9c0bcf3eb9023d740035ef985bad617a587c424be0943ef0"
     else
-      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.2-rc.1-20261111.1/dsh-tui-0.2.2-rc.1-20261111.1-linux-x64.tar.gz"
-      sha256 "4d50c7e6217acc6a27a5519480c60d57aa25dbd12b2bc39af580afdc900ea7d2"
+      url "https://github.com/feuvan/deepseek-harness/releases/download/dsh-tui-v0.2.2-rc.4-20261118.1/dsh-tui-0.2.2-rc.4-20261118.1-linux-x64.tar.gz"
+      sha256 "c973dc5020cb15c61180d990040508bedc8107bc216ec3544e3ad7094c7931c2"
     end
   end
 
