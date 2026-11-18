@@ -48,7 +48,7 @@ dsh-tui
 
 ### 版本与更新日志
 
-当前版本：`0.2.2-rc.4-20261118.3`
+当前版本：`0.2.2-rc.4-20261118.4`
 
 完整变更见 [CHANGELOG.md](CHANGELOG.md)。
 
@@ -110,7 +110,7 @@ and its own `~/.dsh/profiles/tui` profile.
 
 ### Version and changelog
 
-Current version: `0.2.2-rc.4-20261118.3`
+Current version: `0.2.2-rc.4-20261118.4`
 
 See [CHANGELOG.md](CHANGELOG.md) for the full history.
 

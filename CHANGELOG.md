@@ -12,7 +12,17 @@
 
 ## 简体中文
 
+## 简体中文
+
+### 0.2.2-rc.4-20261118.4 · 2026-11-18
+
+- Shift+Tab 现在循环权限模式，并通过与 `/permission` 相同的权限服务应用。
+- 推理强度切换移至 Ctrl+E，编辑器和模型选择器保持一致。
+- 保留 `dsh-tui plugin`、`/sessions` 修复、启动更新检测与 `/update`。
+- 更新 TUI 帮助、文案与中英文文档。
+
 ### 0.2.2-rc.4-20261118.3 · 2026-11-18
+ · 2026-11-18
 
 - 预构建 wrapper 支持 `dsh-tui plugin ...`，转发到共享的 profile 插件 CLI。
 - 未指定 `--profile` 时默认管理 `tui` profile；显式 profile 原样透传。
@@ -102,7 +112,19 @@
 
 ## English
 
+## English
+
+### 0.2.2-rc.4-20261118.4 · 2026-11-18
+
+- Shift+Tab now cycles the permission mode through the same service as
+  `/permission`.
+- Reasoning effort moves to Ctrl+E in the composer and model selector.
+- Keeps `dsh-tui plugin`, the `/sessions` fix, startup update checks, and
+  `/update`.
+- Updated TUI help, copy, and bilingual docs.
+
 ### 0.2.2-rc.4-20261118.3 · 2026-11-18
+ · 2026-11-18
 
 - The prebuilt wrapper now supports `dsh-tui plugin ...`, forwarding to the
   shared profile plugin CLI.
