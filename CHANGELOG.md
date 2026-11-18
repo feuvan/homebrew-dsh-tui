@@ -8,7 +8,19 @@
 
 ## 简体中文
 
+## 简体中文
+
+### 0.2.2-rc.4-20261118.2 · 2026-11-18
+
+- 预构建 Homebrew 与 GitHub 安装会在启动时后台检查最新 Release。
+- 根据安装渠道提示 `brew upgrade dsh-tui` 或一键安装脚本。
+- 新增 `/update`，显示新版本 release notes 与对应升级命令。
+- 预构建归档加入 `release.json` 版本标记；源码和无法识别版本的安装跳过检查。
+- 设置 `DSH_TUI_UPDATE_CHECK=0` 可关闭检查。
+- 保留首次启动设置、`/account`、Session 切换与 Agent Teams 集成。
+
 ### 0.2.2-rc.4-20261118.1 · 2026-11-18
+ · 2026-11-18
 
 - 同步上游 `deepseek-harness` master 至 `ca33fd68`（`0.2.2-rc.4`）。
 - 适配账号包目录迁移、`0.2.2-rc.4` 清单、插件入口导出规则和 empty-catch 策略。
@@ -74,7 +86,22 @@
 
 ## English
 
+## English
+
+### 0.2.2-rc.4-20261118.2 · 2026-11-18
+
+- Prebuilt Homebrew and GitHub installations check the latest Release in the
+  background at startup.
+- Shows `brew upgrade dsh-tui` or the one-line installer according to the
+  install channel.
+- Added `/update` with the new release notes and upgrade command.
+- Prebuilt archives carry a `release.json` version stamp; source and
+  unversioned installs skip the check.
+- Set `DSH_TUI_UPDATE_CHECK=0` to disable the check.
+- Keeps first-run setup, `/account`, session switching, and Agent Teams.
+
 ### 0.2.2-rc.4-20261118.1 · 2026-11-18
+ · 2026-11-18
 
 - Synced upstream `deepseek-harness` master to `ca33fd68` (`0.2.2-rc.4`).
 - Adapted to the moved account packages, `0.2.2-rc.4` manifests, plugin-entry
