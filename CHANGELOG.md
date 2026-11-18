@@ -6,7 +6,18 @@
 
 ## 简体中文
 
+## 简体中文
+
+### 0.2.2-rc.4-20261118.1 · 2026-11-18
+
+- 同步上游 `deepseek-harness` master 至 `ca33fd68`（`0.2.2-rc.4`）。
+- 适配账号包目录迁移、`0.2.2-rc.4` 清单、插件入口导出规则和 empty-catch 策略。
+- 过滤模型列表成功刷新的例行 stderr 日志；失败和警告仍显示。
+- 保留首次启动设置、`/account`、Session 切换与 Agent Teams 集成。
+- 基于功能分支合并提交 `a5fd06a4` 重新构建预构建归档。
+
 ### 0.2.2-rc.1-20261111.1 · 2026-11-11
+ · 2026-11-11
 
 - 同步上游 `deepseek-harness` master 至 `fcc0ad46`（`v0.2.2-rc.1` release 合并，vendored Cordis 4.1.0，重新生成 catalogs 与文档图表）。
 - 跟随上游 Agent Teams 重构：Team 模式改为 base 组合提供的按根会话保存开关，退役实验性组合包，teammate 即普通 subagent。
@@ -61,7 +72,21 @@
 
 ## English
 
+## English
+
+### 0.2.2-rc.4-20261118.1 · 2026-11-18
+
+- Synced upstream `deepseek-harness` master to `ca33fd68` (`0.2.2-rc.4`).
+- Adapted to the moved account packages, `0.2.2-rc.4` manifests, plugin-entry
+  export rules, and the empty-catch policy.
+- Filtered routine successful model-listing stderr lines; failures and
+  warnings remain visible.
+- Keeps first-run setup, `/account`, session switching, and the Agent Teams
+  integration.
+- Rebuilt the prebuilt archives from feature merge `a5fd06a4`.
+
 ### 0.2.2-rc.1-20261111.1 · 2026-11-11
+ · 2026-11-11
 
 - Synced upstream `deepseek-harness` master to `fcc0ad46` (the `v0.2.2-rc.1`
   release merge, vendored Cordis 4.1.0, regenerated catalogs and graphs).
