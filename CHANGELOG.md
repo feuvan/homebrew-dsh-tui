@@ -17,6 +17,7 @@
 - 新增 `/update`，显示新版本 release notes 与对应升级命令。
 - 预构建归档加入 `release.json` 版本标记；源码和无法识别版本的安装跳过检查。
 - 设置 `DSH_TUI_UPDATE_CHECK=0` 可关闭检查。
+- 修复单文件运行时中 `/sessions` 恢复 Session 时把 SEA bootstrap 路径当成 profile 名的问题。
 - 保留首次启动设置、`/account`、Session 切换与 Agent Teams 集成。
 
 ### 0.2.2-rc.4-20261118.1 · 2026-11-18
@@ -98,6 +99,8 @@
 - Prebuilt archives carry a `release.json` version stamp; source and
   unversioned installs skip the check.
 - Set `DSH_TUI_UPDATE_CHECK=0` to disable the check.
+- Fixed `/sessions` resume in the single-file runtime where the embedded SEA
+  bootstrap path was treated as the profile name.
 - Keeps first-run setup, `/account`, session switching, and Agent Teams.
 
 ### 0.2.2-rc.4-20261118.1 · 2026-11-18
